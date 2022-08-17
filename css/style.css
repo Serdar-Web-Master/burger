@@ -1,12 +1,40 @@
 
 .wrapper {
+    min-height: 100%;
 }
-.header {
+
+.page {
+    padding: 90px 0px 30px 0px;
 }
-.container {
+.page__section {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0px auto;
 }
-.main {
-    flex: 1 1 auto;
+.page__section_1 {
+    background-color: rgb(190, 154, 154);
 }
-.footer {
+.page__section_2 {
+    background-color: rgb(114, 141, 171);
+}
+.page__section_3 {
+    background-color: rgb(88, 195, 145);
+}
+.page__title {
+    font-size: 40px;
+    margin: 0px 0px 20px 0px;
+}
+.page__text {
+    font-size: 16px;
+    line-height: 150%;
+}
+.page__text p {
+    margin: 0px 0px 20px 0px;
+    
+}
+
+.page__sub-title {
+    font-size: 30px;
+    margin: 0px 0px 20px 0px;
+    
 }
